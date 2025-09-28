@@ -1,0 +1,29 @@
+{
+  "name": "http-api-assignment-ii",
+  "version": "1.0.0",
+  "description": "api-ii",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Test Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tuckermk/http-api-assignment-ii.git"
+  },
+  "keywords": [
+    "hw"
+  ],
+  "author": "Tucker K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tuckermk/http-api-assignment-ii/issues"
+  },
+  "homepage": "https://github.com/Tuckermk/http-api-assignment-ii#readme",
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.32.0"
+  }
+}
